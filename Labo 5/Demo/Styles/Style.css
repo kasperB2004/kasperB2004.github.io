@@ -1,0 +1,21 @@
+h1, h2 {
+    color: red;
+}
+
+.StyleBlue {
+    color: blue;
+    font-size: 4em;
+}
+
+#opmaak {
+    color: yellowgreen;
+}
+
+.styleGreen {
+    color: green;
+}
+
+section > h1 {
+    color: blueviolet;
+    font-size: 5em;
+}
