@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+}
+
+nav {
+
+    background-color: grey;
+}
+
+nav a {
+    color: greenyellow;
+
+}
+
+#header {
+    background-image: url("../header.jpg");
+    color: white;
+    padding-bottom: 10px;
+}

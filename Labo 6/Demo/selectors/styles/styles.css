@@ -1,0 +1,36 @@
+body {
+    background-color: yellow;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    background-color: red;
+}
+
+p:first-letter {
+    font-size: 5em;
+    color: red;
+}
+
+p:first-line {
+    /*text-decoration: underline;*/
+}
+
+li > a:hover {
+    text-decoration: underline;
+}
+
+h2:before {
+    content: "(Testhoofding)";
+    color: green;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+li:nth-child(2n+1) {
+    color: blue;
+}
