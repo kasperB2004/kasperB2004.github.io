@@ -1,0 +1,32 @@
+table {
+    border: 3px solid black;
+    border-spacing: 0;
+    max-width: 300px;
+
+}
+
+thead {
+    background-color: rgb(170, 170, 200);
+}
+
+td {
+    border: 0.5px dotted black;
+}
+
+.vrijeDag {
+    background-color: rgb(250, 120, 120);
+}
+
+.dag {
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+}
+
+.grijs {
+    background-color: grey;
+    text-decoration: grey;
+}
+
+.weekend {
+    background-color: rgb(255, 220, 220);
+}
