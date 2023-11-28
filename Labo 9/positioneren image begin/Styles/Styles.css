@@ -1,0 +1,38 @@
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+article h2 {
+    margin-left: 10px;
+}
+
+article p {
+    font-size: 1.25em;
+}
+
+article img {
+    margin: 0 10px 10px 10px;
+}
+
+article:nth-child(even) img {
+    float: right;
+}
+
+article:nth-child(even) p {
+    margin-left: 10px;
+}
+
+article:nth-child(odd) img {
+    float: left;
+}
+
+article {
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+S
