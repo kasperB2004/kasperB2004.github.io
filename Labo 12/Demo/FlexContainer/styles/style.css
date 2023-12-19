@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightskyblue;
+    font-family: Chalkboard, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.grey-box {
+    background: grey;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+
+/* Start instellingen FlexBox */
+section {
+    background: coral;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
