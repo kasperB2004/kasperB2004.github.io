@@ -1,0 +1,12 @@
+body {
+    display: flex
+}
+
+nav {
+    flex-basis: 20%;
+    background: var(--nav);
+}
+
+article {
+    flex-basis: 80%;
+}
