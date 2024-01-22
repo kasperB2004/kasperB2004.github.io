@@ -1,12 +1,29 @@
+:root {
+    --nav: #1e90ff;
+    --article: #ff9000;
+    --widthnav: 30%;
+}
+
 body {
-    display: flex
+    margin: auto;
+    display: flex;
+}
+
+article, nav {
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+
 }
 
 nav {
-    flex-basis: 20%;
+    /* flex-basis: 30%; */
+    flex-basis: var(--widthnav);
     background: var(--nav);
 }
 
 article {
-    flex-basis: 80%;
+    /* flex-basis: 80%; */
+    flex-basis: calc(100% - var(--widthnav));
+    background: var(--article);
 }

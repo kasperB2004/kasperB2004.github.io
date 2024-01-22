@@ -9,30 +9,41 @@
     text-align: center;
     background-color: #dcd6fe;
     grid-area: header;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridNav {
     text-align: center;
     background-color: #c6c0ff;
     grid-area: nav;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridMain {
     text-align: center;
     background-color: #f9f6d2;
     grid-area: main;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridAside {
     text-align: center;
     background-color: #d4ffd1;
     grid-area: aside;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridFooter {
     text-align: center;
     background-color: #ffd1d1;
     grid-area: footer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .grid {
