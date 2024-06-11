@@ -1,0 +1,44 @@
+.Youtube {
+    background-color: red;
+    color: white;
+}
+
+.Youtube .btn {
+    background-color: Black;
+    color: white;
+}
+
+.Twitter {
+    background-color: blue;
+    color: white;
+}
+
+.Google {
+    background-color: blue;
+    color: white;
+}
+
+.Google .btn {
+    background-color: red;
+    color: yellow;
+}
+
+.Instagram {
+    background-color: purple;
+    color: white;
+}
+
+.Instagram .btn {
+    background-color: orange;
+    color: white;
+}
+
+.Twitter .btn {
+    background-color: Black;
+    color: white;
+}
+
+#History {
+    display: flex;
+    justify-content: space-between;
+}

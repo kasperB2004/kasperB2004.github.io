@@ -1,0 +1,52 @@
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+}
+
+.wrongplace {
+    background-color: beige;
+    color: black;
+}
+
+.guess-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.letter-box {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    border: 1px solid #000;
+}
+
+#guesscontainer {
+    padding-top: 20px;
+}
+
+#message {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    background-color: rgba(173, 216, 230, 0.5);
+    border-left: 4px solid darkblue;
+}
+
+#highscores {
+    float: right;
+    border: black dashed 1px;
+}
+
+#btnClear {
+    float: right;
+
+}
